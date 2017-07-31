@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BeautifulSoup	../html_parser.py	/^from bs4 import BeautifulSoup$/;"	kind:namespace	line:2
+HtmlDownloader	../html_downloader.py	/^class HtmlDownloader(object):$/;"	kind:class	line:4
+HtmlOutputer	../html_outputer.py	/^class HtmlOutputer(object):$/;"	kind:class	line:2
+HtmlParser	../html_parser.py	/^class HtmlParser(object):$/;"	kind:class	line:6
+SpiderMain	../spider_main.py	/^class SpiderMain(object):$/;"	kind:class	line:8
+UrlManager	../url_manager.py	/^class UrlManager(object):$/;"	kind:class	line:2
+__init__	../html_outputer.py	/^    def __init__(self):$/;"	kind:member	line:3
+__init__	../spider_main.py	/^    def __init__(self):$/;"	kind:member	line:10
+__init__	../url_manager.py	/^    def __init__(self):$/;"	kind:member	line:4
+_get_new_data	../html_parser.py	/^    def _get_new_data(self, page_url, soup):$/;"	kind:member	line:31
+_get_new_urls	../html_parser.py	/^    def _get_new_urls(self, page_url, soup):$/;"	kind:member	line:17
+add_new_url	../url_manager.py	/^    def add_new_url(self, url):$/;"	kind:member	line:9
+add_new_urls	../url_manager.py	/^    def add_new_urls(self, urls):$/;"	kind:member	line:26
+collect_data	../html_outputer.py	/^    def collect_data(self, data):$/;"	kind:member	line:6
+craw	../spider_main.py	/^    def craw(self, root_url):# craw 方法，爬虫调度程序$/;"	kind:member	line:16
+download	../html_downloader.py	/^    def download(cls, url):$/;"	kind:member	line:6
+get_new_url	../url_manager.py	/^    def get_new_url(self):$/;"	kind:member	line:20
+has_new_url	../url_manager.py	/^    def has_new_url(self):$/;"	kind:member	line:16
+html_downloader	../spider_main.py	/^import html_downloader$/;"	kind:namespace	line:2
+html_downloader.py	../html_downloader.py	1;"	kind:file	line:1
+html_outputer	../spider_main.py	/^import html_outputer$/;"	kind:namespace	line:4
+html_outputer.py	../html_outputer.py	1;"	kind:file	line:1
+html_parser	../spider_main.py	/^import html_parser$/;"	kind:namespace	line:3
+html_parser.py	../html_parser.py	1;"	kind:file	line:1
+obj_spider	../spider_main.py	/^    obj_spider = SpiderMain()$/;"	kind:variable	line:49
+output_html	../html_outputer.py	/^    def output_html(self):$/;"	kind:member	line:11
+parse	../html_parser.py	/^    def parse(self, page_url, html_cont):$/;"	kind:member	line:8
+parse	../html_parser.py	/^from urllib import parse$/;"	kind:namespace	line:4
+re	../html_parser.py	/^import re$/;"	kind:namespace	line:3
+request	../html_downloader.py	/^from urllib import request$/;"	kind:namespace	line:2
+root_url	../spider_main.py	/^    root_url = "http:\/\/baike.baidu.com\/item\/Python" # 这里写上最开始的页面url$/;"	kind:variable	line:48
+spider_main.py	../spider_main.py	1;"	kind:file	line:1
+url_manager	../spider_main.py	/^import url_manager$/;"	kind:namespace	line:1
+url_manager.py	../url_manager.py	1;"	kind:file	line:1
